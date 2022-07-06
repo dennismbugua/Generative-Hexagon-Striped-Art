@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1f1f1;
+}
+
+.collection {
+  font-family: "Anton", Sans-serif;
+  color: #1f1f1f;
+  display: inline-block;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 0.9;
+}
+.collection::first-line {
+  color: #1f1f1f;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.artboard {
+  width: 340px;
+  height: 340px;
+  box-shadow: 0 2px 15px 5px rgba(31, 31, 31, 0.15);
+  border-radius: 50%;
+  background-image: repeating-linear-gradient(30deg, #ff5733 0px, #ff5733 34px, transparent 34px, transparent 103px), repeating-linear-gradient(-30deg, #8f0b3e 0px, #ff5733 34px, transparent 34px, #ffc300 103px), repeating-linear-gradient(-30deg, #ffc300 0px, transparent 68px, #ff5733 68px, #ffc300 103px), repeating-linear-gradient(30deg, transparent 0px, transparent 68px, #ff5733 68px, #ffc300 103px), repeating-linear-gradient(30deg, #c70139 0px, #8f0b3e 34px, transparent 34px, transparent 103px), repeating-linear-gradient(-30deg, #ff5733 0px, #c70139 34px, transparent 34px, #ffc300 103px), repeating-linear-gradient(-30deg, #8f0b3e 0px, transparent 68px, #ffc300 68px, #8f0b3e 103px), repeating-linear-gradient(30deg, transparent 0px, transparent 68px, #ff5733 68px, #ff5733 103px), repeating-linear-gradient(30deg, #8f0b3e 0px, #ff5733 34px, transparent 34px, transparent 103px), repeating-linear-gradient(-30deg, #ff5733 0px, #8f0b3e 34px, transparent 34px, #ff5733 103px), repeating-linear-gradient(-30deg, #c70139 0px, transparent 68px, #ff5733 68px, #ff5733 103px), repeating-linear-gradient(30deg, transparent 0px, transparent 68px, #c70139 68px, #ff5733 103px), repeating-linear-gradient(30deg, #8f0b3e 0px, #c70139 34px, transparent 34px, transparent 103px), repeating-linear-gradient(-30deg, #8f0b3e 0px, #ff5733 34px, transparent 34px, #c70139 103px), repeating-linear-gradient(-30deg, #c70139 0px, transparent 68px, #c70139 68px, #c70139 103px), repeating-linear-gradient(30deg, transparent 0px, transparent 68px, #8f0b3e 68px, #ff5733 103px), repeating-linear-gradient(30deg, #c70139 0px, #ffc300 34px, transparent 34px, transparent 103px), repeating-linear-gradient(-30deg, #ff5733 0px, #c70139 34px, transparent 34px, #ff5733 103px), repeating-linear-gradient(-30deg, #ff5733 0px, transparent 68px, #ffc300 68px, #8f0b3e 103px), repeating-linear-gradient(30deg, transparent 0px, transparent 68px, #8f0b3e 68px, #c70139 103px);
+  background-size: 34px 200%;
+  background-repeat: no-repeat;
+  background-position: 0px calc(0px + var(--posY0, 0px)), 34px calc(0px + var(--posY0, 0px)), 0px calc(-99px + var(--posY0, 0px)), 34px calc(-99px + var(--posY0, 0px)), 68px calc(0px + var(--posY1, 0px)), 102px calc(0px + var(--posY1, 0px)), 68px calc(-99px + var(--posY1, 0px)), 102px calc(-99px + var(--posY1, 0px)), 136px calc(0px + var(--posY2, 0px)), 170px calc(0px + var(--posY2, 0px)), 136px calc(-99px + var(--posY2, 0px)), 170px calc(-99px + var(--posY2, 0px)), 204px calc(0px + var(--posY3, 0px)), 238px calc(0px + var(--posY3, 0px)), 204px calc(-99px + var(--posY3, 0px)), 238px calc(-99px + var(--posY3, 0px)), 272px calc(0px + var(--posY4, 0px)), 306px calc(0px + var(--posY4, 0px)), 272px calc(-99px + var(--posY4, 0px)), 306px calc(-99px + var(--posY4, 0px));
+  -webkit-animation: moveY0 3s ease-in-out infinite alternate 0s, moveY1 3s ease-in-out infinite alternate 0.15s, moveY2 3s ease-in-out infinite alternate 0.3s, moveY3 3s ease-in-out infinite alternate 0.45s, moveY4 3s ease-in-out infinite alternate 0.6s;
+          animation: moveY0 3s ease-in-out infinite alternate 0s, moveY1 3s ease-in-out infinite alternate 0.15s, moveY2 3s ease-in-out infinite alternate 0.3s, moveY3 3s ease-in-out infinite alternate 0.45s, moveY4 3s ease-in-out infinite alternate 0.6s;
+}
+
+@-webkit-keyframes moveY0 {
+  to {
+    --posY0: -170px;
+  }
+}
+
+@keyframes moveY0 {
+  to {
+    --posY0: -170px;
+  }
+}
+@-webkit-keyframes moveY1 {
+  to {
+    --posY1: -170px;
+  }
+}
+@keyframes moveY1 {
+  to {
+    --posY1: -170px;
+  }
+}
+@-webkit-keyframes moveY2 {
+  to {
+    --posY2: -170px;
+  }
+}
+@keyframes moveY2 {
+  to {
+    --posY2: -170px;
+  }
+}
+@-webkit-keyframes moveY3 {
+  to {
+    --posY3: -170px;
+  }
+}
+@keyframes moveY3 {
+  to {
+    --posY3: -170px;
+  }
+}
+@-webkit-keyframes moveY4 {
+  to {
+    --posY4: -170px;
+  }
+}
+@keyframes moveY4 {
+  to {
+    --posY4: -170px;
+  }
+}
